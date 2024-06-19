@@ -25,7 +25,7 @@ namespace WebApIRedArbor.Data.Contracts
         Portal AddPortal(Portal objPortal);
 
         /// <summary>
-        /// 
+        /// Actualizacion del Registro
         /// </summary>
         /// <param name="id"></param>
         /// <param name="objPortal"></param>
@@ -38,5 +38,12 @@ namespace WebApIRedArbor.Data.Contracts
         /// <param name="id"></param>
         /// <returns>Mensaje Borrado Exitoso</returns>
         string DeletePortal(int id);
+
+        /// <summary>
+        /// Valida que PortalId Exista
+        /// </summary>
+        /// <param name="portalId"></param>
+        /// <returns>Bool</returns>
+        bool Exists(int portalId);
     }
 }

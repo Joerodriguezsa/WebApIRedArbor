@@ -38,5 +38,12 @@ namespace WebApIRedArbor.Data.Contracts
         /// <param name="id"></param>
         /// <returns>Mensaje Borrado Exitoso</returns>
         string DeleteCompany(int id);
+
+        /// <summary>
+        /// Valida que Company Id Exista
+        /// </summary>
+        /// <param name="companyId"></param>
+        /// <returns>Bool</returns>
+        bool Exists(int companyId);
     }
 }

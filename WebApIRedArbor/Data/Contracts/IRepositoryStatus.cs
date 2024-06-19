@@ -38,5 +38,12 @@ namespace WebApIRedArbor.Data.Contracts
         /// <param name="id"></param>
         /// <returns>Mensaje Borrado Exitoso</returns>
         string DeleteStatus(int id);
+
+        /// <summary>
+        /// Valida que StatusId Exista
+        /// </summary>
+        /// <param name="statusId"></param>
+        /// <returns>Bool</returns>
+        bool Exists(int statusId);
     }
 }

@@ -16,6 +16,7 @@ builder.Services.AddTransient<IRepositoryStatus, RepositoryStatus>();
 builder.Services.AddTransient<IRepositoryRole, RepositoryRole>();
 builder.Services.AddTransient<IRepositoryPortal, RepositoryPortal>();
 builder.Services.AddTransient<IRepositoryCompany, RepositoryCompany>();
+builder.Services.AddTransient<IRepositoryEmployee, RepositoryEmployee>();
 builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
