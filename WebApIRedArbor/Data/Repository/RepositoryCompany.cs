@@ -101,5 +101,15 @@ namespace WebApIRedArbor.Data.Repository
             }
         }
 
+        /// <summary>
+        /// Valida que Company Id Exista
+        /// </summary>
+        /// <param name="companyId"></param>
+        /// <returns>Bool</returns>
+        public bool Exists(int companyId)
+        {
+            return conexionSQLServer.Company.Any(p => p.Id == companyId);
+        }
+
     }
 }

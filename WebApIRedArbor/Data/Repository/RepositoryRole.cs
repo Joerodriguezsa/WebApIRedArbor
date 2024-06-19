@@ -101,5 +101,15 @@ namespace WebApIRedArbor.Data.Repository
             }
         }
 
+        /// <summary>
+        /// Valida que exista el RoleId
+        /// </summary>
+        /// <param name="roleId"></param>
+        /// <returns>Bool</returns>
+        public bool Exists(int roleId)
+        {
+            return conexionSQLServer.Role.Any(p => p.Id == roleId);
+        }
+
     }
 }

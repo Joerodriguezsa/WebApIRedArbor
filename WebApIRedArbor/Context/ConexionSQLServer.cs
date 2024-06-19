@@ -10,5 +10,6 @@ namespace WebApIRedArbor.Context
         public DbSet<Role> Role { get; set; }
         public DbSet<Portal> Portal { get; set; }
         public DbSet<Company> Company { get; set; }
+        public DbSet<Employee> Employee { get; set; }
     }
 }

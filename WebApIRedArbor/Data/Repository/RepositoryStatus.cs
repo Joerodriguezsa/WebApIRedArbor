@@ -101,5 +101,15 @@ namespace WebApIRedArbor.Data.Repository
             }
         }
 
+        /// <summary>
+        /// Valida que StatusId Exista
+        /// </summary>
+        /// <param name="statusId"></param>
+        /// <returns>Bool</returns>
+        public bool Exists(int statusId)
+        {
+            return conexionSQLServer.Status.Any(p => p.Id == statusId);
+        }
+
     }
 }

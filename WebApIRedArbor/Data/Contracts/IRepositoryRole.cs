@@ -38,5 +38,12 @@ namespace WebApIRedArbor.Data.Contracts
         /// <param name="id"></param>
         /// <returns>Mensaje Borrado Exitoso</returns>
         string DeleteRole(int id);
+
+        /// <summary>
+        /// Valida que exista el RoleId
+        /// </summary>
+        /// <param name="roleId"></param>
+        /// <returns>Bool</returns>
+        bool Exists(int roleId);
     }
 }

@@ -101,5 +101,15 @@ namespace WebApIRedArbor.Data.Repository
             }
         }
 
+        /// <summary>
+        /// Valida que PortalId Exista
+        /// </summary>
+        /// <param name="portalId"></param>
+        /// <returns>Bool</returns>
+        public bool Exists(int portalId)
+        {
+            return conexionSQLServer.Portal.Any(p => p.Id == portalId);
+        }
+
     }
 }
