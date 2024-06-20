@@ -7,11 +7,11 @@ namespace WebApIRedArbor.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EmployeeController : ControllerBase
+    public class RedArborController : ControllerBase
     {
         private readonly IRepositoryEmployee _repository;
 
-        public EmployeeController(IRepositoryEmployee repository)
+        public RedArborController(IRepositoryEmployee repository)
         {
             _repository = repository;
         }

@@ -9,12 +9,12 @@ namespace WebApIRedArbor.Tests.Employee
     public class EmployeeControllerTests
     {
         private readonly Mock<IRepositoryEmployee> _mockRepository;
-        private readonly EmployeeController _controller;
+        private readonly RedArborController _controller;
 
         public EmployeeControllerTests()
         {
             _mockRepository = new Mock<IRepositoryEmployee>();
-            _controller = new EmployeeController(_mockRepository.Object);
+            _controller = new RedArborController(_mockRepository.Object);
         }
 
         [Fact]
