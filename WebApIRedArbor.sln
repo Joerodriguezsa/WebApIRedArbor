@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApIRedArbor", "WebApIRedArbor\WebApIRedArbor.csproj", "{A3EAD304-8FB8-4921-AD98-59B87D31DEBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApIRedArbor.Tests", "WebApIRedArbor.Tests\WebApIRedArbor.Tests.csproj", "{BA42020B-EB1C-4911-B783-81A8F2044173}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A3EAD304-8FB8-4921-AD98-59B87D31DEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3EAD304-8FB8-4921-AD98-59B87D31DEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3EAD304-8FB8-4921-AD98-59B87D31DEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA42020B-EB1C-4911-B783-81A8F2044173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA42020B-EB1C-4911-B783-81A8F2044173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA42020B-EB1C-4911-B783-81A8F2044173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA42020B-EB1C-4911-B783-81A8F2044173}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
